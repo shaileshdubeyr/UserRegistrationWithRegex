@@ -6,7 +6,7 @@ public class UserTest {
     @Test
     public void userTest(){
         UserDetails userDetails = new UserDetails();
-        boolean testStatus = userDetails.email();
+        boolean testStatus = userDetails.mobileNumner();
         Assert.assertTrue(testStatus);
      }
 }

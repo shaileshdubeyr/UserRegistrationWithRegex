@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class UserDetails {
 
-    public boolean email() {
-        System.out.println("Email Testing");
-        boolean matchesString = Pattern.matches("^[A-Za-z._]+[@]{1}[a-zA-Z]+[.a-z]{4}([.a-zA-Z]{3})*$", "shailesh.kush@kushhfu.com.in");
+    public boolean mobileNumner() {
+        System.out.println("Mobile Number Test");
+        boolean matchesString = Pattern.matches("^[0-9]{2}[ ][0-9]{10}$", "91 7046909396");
         return matchesString;
     }
 }
