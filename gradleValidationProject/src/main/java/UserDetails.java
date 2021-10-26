@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class UserDetails {
 
-    public boolean mobileNumner() {
-        System.out.println("Mobile Number Test");
-        boolean matchesString = Pattern.matches("^[0-9]{2}[ ][0-9]{10}$", "91 7046909396");
+    public boolean password() {
+        System.out.println("Password test Test");
+        boolean matchesString = Pattern.matches("^[A-Z{1,}a-z]{8}$", "kushdube");
         return matchesString;
     }
 }
