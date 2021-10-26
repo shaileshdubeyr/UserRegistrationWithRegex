@@ -7,7 +7,7 @@ public class UserTest {
     @Test
     public void userTest(){
         UserDetails userDetails = new UserDetails();
-        boolean testStatus = userDetails.firstName();
+        boolean testStatus = userDetails.lastName();
         Assert.assertTrue(testStatus);
      }
 

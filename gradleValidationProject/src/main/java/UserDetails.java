@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UserDetails {
 
-    public boolean firstName() {
+    public boolean lastName() {
         System.out.println("Enter the name");
         boolean matchesString = Pattern.matches("^[A-Z]{1}[a-zA-Z]{3,15}$", "Shailesh");
         System.out.println("the result is " + matchesString);
